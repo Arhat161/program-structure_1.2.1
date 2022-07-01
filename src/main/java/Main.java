@@ -11,13 +11,13 @@ class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("¬ведите первое число:");
-        int value1 = scanner.nextInt();
+        int value1 = scanner.nextInt(); // input first value
 
         System.out.println("¬ведите второе число:");
-        int value2 = scanner.nextInt();
+        int value2 = scanner.nextInt(); // input second value
 
         System.out.println("¬ведите третье число:");
-        int value3 = scanner.nextInt();
+        int value3 = scanner.nextInt(); // input third value
 
         int result = sum(value1, value2, value3);
         System.out.println("—умма чисел = " + result);
